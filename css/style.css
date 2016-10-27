@@ -5,34 +5,47 @@
 body{
     background:#000;
     font-family:Georgia;
-    font-size: 34px;
+    font-size: 1.5rem;
     font-style: italic;
     letter-spacing:-1px;
-    width:15400px;
+    width:9750px;
     position:absolute;
     top:0px;
     left:0px;
     bottom:0px;
 }
+@media only screen and (min-width: 1800px) {
+    body {
+        width:15000px;
+        font-size: 30px;
+    }
+}
 .nav{
     position:fixed;
     list-style:none;
+    left:0px;
+    bottom:0px;
 }
 .section{
     margin:0;
     bottom:0px;
-    width:2200px;
+    width:14%;
     float:left;
     height:100%;
     text-shadow:1px 1px 2px #f0f0f0;
 }
-.section h2{
-
+h1, h2{
+    text-align: center;
 }
 .section p{
+    font-size:.8em;
     margin-left:auto;
     margin-right:auto;
-    width:70%;
+    width:55%;
+    padding-top: 2%;
+}
+.section4 p{
+    color:black;
 }
 
 .section1{
@@ -50,14 +63,14 @@ body{
         background-size:contain;
 }
 .section4{
-        background:url(../images/desert_english.jpg);
+        background:url(../images/caravan.jpg);
         background-repeat:no-repeat;
         background-attachment:fixed;
         background-position:center;
         background-size:contain;
 }
 .section5{
-        background:url(../images/caravan.jpg);
+        background:url(../images/desert_english.jpg);
         background-repeat:no-repeat;
         background-attachment:fixed;
         background-position:center;
@@ -71,7 +84,7 @@ body{
         background-size:contain;
 }
 .section7{
-        background:url(../images/pyramids2.jpg);
+        background:url(../images/universe.jpg);
         background-repeat:no-repeat;
         background-attachment:fixed;
         background-position:center;
@@ -83,22 +96,20 @@ body{
 
 }
 
-.section ul{
+ul{
     list-style:none;
     margin-left: 2%;
     margin-top: 50%;
 }
-.black ul li{
+ul li{
     float:left;
     padding:5px;
     margin:5px;
     color:#aaa;
-}
-.black ul li a{
     display:block;
     color:#f0f0f0;
 }
-.black ul li a:hover{
+ul li a:hover{
     text-decoration:none;
     color:#fff;
 }
