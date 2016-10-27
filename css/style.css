@@ -15,9 +15,9 @@ body{
     bottom:0px;
 }
 .nav{
+    margin-left: 50%;
+    margin-right: 50%;
     position:fixed;
-    margin-left: auto;
-    margin-right: auto;
     list-style:none;
 }
 .section{
@@ -27,7 +27,6 @@ body{
     float:left;
     height:100%;
     text-shadow:1px 1px 2px #f0f0f0;
-    padding-top:.35%;
 }
 .section h2{
 
@@ -36,8 +35,6 @@ body{
     margin-left:auto;
     margin-right:auto;
     width:70%;
-    padding-top:1%;
-    padding-bottom: .2%;
 }
 
 .section1{
@@ -67,7 +64,8 @@ body{
 
 .section ul{
     list-style:none;
-    margin:20px 0px 0px 550px;
+    margin-left: 2%;
+    margin-top: 50%;
 }
 .black ul li{
     float:left;
