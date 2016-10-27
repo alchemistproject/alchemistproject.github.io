@@ -8,7 +8,7 @@ body{
     font-size: 34px;
     font-style: italic;
     letter-spacing:-1px;
-    width:12000px;
+    width:21000px;
     position:absolute;
     top:0px;
     left:0px;
@@ -17,7 +17,7 @@ body{
 .section{
     margin:0px;
     bottom:0px;
-    width:4000px;
+    width:3000px;
     float:left;
     height:100%;
     text-shadow:1px 1px 2px #f0f0f0;
@@ -29,10 +29,18 @@ body{
     margin:20px 0px 0px 50px;
     width:600px;
 }
+
+.section1{
+        background:url(../images/pyramids2.jpg);
+        background-repeat:no-repeat;
+        background-attachment:fixed;
+        background-position:center;
+        background-size:contain;
+}
+
 .black{
     color:#fff;
-   
-    background:#000 url(../images/black.jpg) no-repeat top right;
+
 }
 .white{
     color:#000;
