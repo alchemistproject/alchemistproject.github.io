@@ -15,13 +15,11 @@ body{
     bottom:0px;
 }
 .nav{
-    margin-left: 50%;
-    margin-right: 50%;
     position:fixed;
     list-style:none;
 }
 .section{
-    margin:0px;
+    margin:0;
     bottom:0px;
     width:2200px;
     float:left;
@@ -44,8 +42,35 @@ body{
         background-position:center;
         background-size:contain;
 }
-
 .section3{
+        background:url(../images/port_town.jpg);
+        background-repeat:no-repeat;
+        background-attachment:fixed;
+        background-position:center;
+        background-size:contain;
+}
+.section4{
+        background:url(../images/desert_english.jpg);
+        background-repeat:no-repeat;
+        background-attachment:fixed;
+        background-position:center;
+        background-size:contain;
+}
+.section5{
+        background:url(../images/caravan.jpg);
+        background-repeat:no-repeat;
+        background-attachment:fixed;
+        background-position:center;
+        background-size:contain;
+}
+.section6{
+        background:url(../images/desert_sunset.jpg);
+        background-repeat:no-repeat;
+        background-attachment:fixed;
+        background-position:center;
+        background-size:contain;
+}
+.section7{
         background:url(../images/pyramids2.jpg);
         background-repeat:no-repeat;
         background-attachment:fixed;
@@ -56,10 +81,6 @@ body{
 .black{
     color:#fff;
 
-}
-.white{
-    color:#000;
-    background:#fff url();
 }
 
 .section ul{
@@ -80,18 +101,4 @@ body{
 .black ul li a:hover{
     text-decoration:none;
     color:#fff;
-}
-.white ul li{
-    float:left;
-    padding:5px;
-    margin:5px;
-    color:#aaa;
-}
-.white ul li a{
-    display:block;
-    color:#222;
-}
-.white ul li a:hover{
-    text-decoration:none;
-    color:#000;
 }
