@@ -15,7 +15,7 @@ body{
     bottom:0px;
 }
 .nav{
-    position:fixed;
+    position:relative;
     margin-left: auto;
     margin-right: auto;
     list-style:none;
